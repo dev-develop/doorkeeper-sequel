@@ -4,10 +4,24 @@ Reverse Chronological Order:
 
 ## master
 
-https://github.com/nbulaj/doorkeeper-sequel/compare/1.2.1...master
+https://github.com/nbulaj/doorkeeper-sequel/compare/1.2.3...master
+
+...
+
+## `1.2.3` (2017-08-10)
+
+https://github.com/nbulaj/doorkeeper-sequel/compare/1.2.2...1.2.3
+
+* Test against stable Rails 5.1
+* Update Doorkeeper submodule
+
+## `1.2.2` (2017-06-07)
+
+https://github.com/nbulaj/doorkeeper-sequel/compare/1.2.1...1.2.2
 
 * ORM code refactoring
-* Update Doorkeeper submodule
+* Fix Sequel deprecations (>= 4.47)
+* Update Doorkeeper submodule (support up to 4.2.6)
 * Fix `#table_exists?` method for models
 * `Rakefile` refactoring
 * Remove Gemfile.lock
